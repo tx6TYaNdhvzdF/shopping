@@ -1,0 +1,114 @@
+/* styles.css */
+.body-customer {
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+.text-center {
+  text-align: center;
+}
+span.link {
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+}
+/* menu.css */
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+}
+div.float-left {
+  float: left;
+}
+div.float-right {
+  float: right;
+}
+div.float-clear {
+  clear: both;
+}
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+}
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+form.search {
+  margin: 0px;
+}
+input.keyword {
+  width: 110px;
+}
+/* datatable.css */
+.datatable {
+  text-align: center;
+  border-collapse: collapse;
+}
+/* header */
+tr:first-child.datatable {
+  background-color: #ffcc00;
+}
+/* even rows, except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #f5f5f5;
+}
+/* odd rows, except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #ffeeaa;
+}
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
+.home-container {
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* hoặc bất kỳ giá trị nào bạn muốn */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Điều chỉnh màu sắc văn bản nếu cần */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('background1.png'); /* Đường dẫn đến hình ảnh của bạn */
+  background-size: cover; /* Phủ kín toàn bộ màn hình */
+   /* Canh giữa hình ảnh nền */
+  background-repeat: no-repeat; /* Không lặp lại hình ảnh nền */
+  font-family: 'Arial', sans-serif; /* Font chữ mặc định */
+}
+
+.button{
+  border-radius: 15px;
+  margin: 5px;  
+}
